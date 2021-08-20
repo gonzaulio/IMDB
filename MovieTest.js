@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var Movie_1 = require("./Movie");
+var Avengers1 = new Movie_1.Movie("Avengers", 2006, "USA", "Action");
+Avengers1.completeData(["Robert Downey Jr.", "Chris Evans", "Chris Evans"], "Joss Whedon", "Stan Lee", "English", "Movie theaters", true, "Iron Man", "Marvel Studios", "Paramount Pictures");
+Avengers1.printMovie();
+var JusticeLeague = new Movie_1.Movie("Justice League: Snyder's Cut", 2021, "USA", "Action");
+JusticeLeague.completeData(["Henry Cavill", "Jared Leto", "Ben Affleck"], "Zack Snyder", "Chris Terrio", "English", "Movie theaters", false, "Superman", "DC Films", "HBO Max");
+JusticeLeague.printMovie();
+var CaptainMarvel = new Movie_1.Movie("Captain Marvel", 2019, "USA", "Action");
+CaptainMarvel.completeData(["Brie Larson", "Gemma Chan", "Jude Law"], "Anna Boden", "Ryan Fleck", "English", "Movie theaters", true, "Captain Marvel", "Marvel Studios", "Walt Disney Studios Motion Pictures");
+CaptainMarvel.printMovie();
