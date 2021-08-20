@@ -15,4 +15,9 @@ let CaptainMarvel:Movie = new Movie("Captain Marvel", 2019, "USA", "Action");
 CaptainMarvel.completeData(["Brie Larson", "Gemma Chan", "Jude Law"], "Anna Boden", "Ryan Fleck", "English", "Movie theaters", true, "Captain Marvel", "Marvel Studios", "Walt Disney Studios Motion Pictures");
 imdb1.peliculas.push(CaptainMarvel);
 
-imdb1.printAllMovies()
+imdb1.printAllMovies();
+
+let imdb1JSON = JSON.stringify(imdb1);
+console.log(imdb1JSON);
+
+
